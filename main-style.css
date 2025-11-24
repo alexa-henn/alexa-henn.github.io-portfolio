@@ -1,0 +1,62 @@
+body {
+    background-color: #242428;
+    color: #F8F4F2;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar project-1 project-2 project-3"
+    "sidebar project-4 project-5 project-6"
+    "sidebar project-7 project-8 project-9";
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+}
+
+sidebar {
+    grid-area: sidebar;
+}
+
+project-1 {
+    grid-area: project-1;
+}
+
+project-2 {
+    grid-area: project-2;
+}
+
+project-3 {
+    grid-area: project-3;
+}
+
+project-4 {
+    grid-area: project-4;
+}
+
+project-5 {
+    grid-area: project-5;
+}
+
+project-6 {
+    grid-area: project-6;
+}
+
+project-7 {
+    grid-area: project-7;
+}
+
+project-8 {
+    grid-area: project-8;
+}
+
+project-9 {
+    grid-area: project-9;
+}
+
+a {
+    color: lightblue;
+}

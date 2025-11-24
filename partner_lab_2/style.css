@@ -1,0 +1,19 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+}
+
+#questions {
+    border: 1px solid black;
+    padding: 10px
+}
+
+#customized {
+    padding-bottom: 200px;
+}
+
+#userMessage {
+    width: 300px;
+}

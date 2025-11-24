@@ -1,0 +1,17 @@
+body {
+    background-color: #D0E4EE;
+}
+
+h1, h2 {
+    color: #485872;
+}
+
+h1 {
+    border-style: double;
+    text-align: center;
+}
+
+#extradescription {
+    color: #663399;
+}
+
